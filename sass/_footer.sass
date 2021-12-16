@@ -1,0 +1,102 @@
+.footer
+    padding: 
+       top: $gap-xl * 2 + 8px
+       bottom: $gap-xl
+    &-flex
+        display: flex
+        justify-content: space-between
+        margin-bottom: $gap-xl + $gap-lg
+        &_item:nth-child(-n+4)
+            margin-right: 24px
+        &_item:nth-child(5)
+            margin-left: 164px
+        &_item
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            a
+                font: $font-subtitle
+                margin-bottom: $gap-sm
+                text-decoration: none
+                color: $text-color-subtitle
+                line-height: 22px
+            &_form
+                form
+                    position: relative
+                button
+                    position: absolute
+                    top: 5px
+                    right: 6px
+                    width: 29px
+                    height: 29px
+                    border: none
+                    background-color: transparent
+                    cursor: pointer
+                    background-image: url("../img/button.svg") 
+
+        
+
+            &_title
+                    font: $font-title
+                    margin-bottom: $gap-xl + 3px
+                    color: $text-color-title
+                    line-height: $gap-xl + 3px
+            &_gallery
+                display: flex
+                img
+                    margin-right: $gap-sm
+                    margin-bottom: $gap-xl + $gap-lg
+            &_type
+                background-image: url("../img/envelope.png") 
+                background-repeat: no-repeat
+                background-position-x: 16px
+                background-position-y: center
+                background-size: 12px
+                border: 1px solid #ffffff
+                width: 364px
+                border-radius: 85px
+                background-color: linear-gradient(130.17deg, rgba(255, 255, 255, 0.136) 2.38%, rgba(255, 255, 255, 0.85) 98.89%)
+                padding: 9px 0
+
+                
+                                
+            &_type::placeholder
+                font-family: $font-subtitle
+                color: #A2BDE6
+                padding:
+                    top: 8px
+                    left: 37px
+                    bottom: 8px
+                line-height: 140%
+
+            &_type:focus
+                outline: none
+                background-image: none               
+    &-flex
+        &-bottom
+            display: flex
+            justify-content: space-between
+            border-top:  1px solid #B4D2FF
+            padding-top: $gap-xl
+            &_itemleft
+                display: flex
+                img
+                    margin-right: 10px
+                &_subtitle
+                    font: $font-subtitle
+                    line-height: 22px
+                    color: #7E92B3
+                    margin-right: 10px
+                &_title
+                   color: #6C7E99
+                   font: $font-title
+
+               
+            &_itemright
+                display: flex
+                img
+                    margin-right: 8px
+                &_title
+                   color: #6C7E99
+                   font: $font-title
+                
