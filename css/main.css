@@ -99,6 +99,7 @@
 
 .footer-flex-bottom_itemleft {
   display: flex;
+  align-items: center;
 }
 
 .footer-flex-bottom_itemleft img {
@@ -117,8 +118,13 @@
   font: 20px 700 "Nunito", sans-serif;
 }
 
+.footer-flex-bottom_itemleft_copyright {
+  display: flex;
+}
+
 .footer-flex-bottom_itemright {
   display: flex;
+  align-items: center;
 }
 
 .footer-flex-bottom_itemright img {
@@ -141,5 +147,7 @@ h1, h2, h3, h6, p {
 
 body {
   font-family: "Nunito", sans-serif;
-  background-color: #E5E5E5;
+  background-image: url("../img/Footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -1,0 +1,129 @@
+@media (max-width:768px) {
+    .container {
+        max-width: 720px;
+        padding: 0 20px;
+        
+    }    
+    .footer-flex {
+        flex-wrap: wrap;
+        
+        
+    }
+    .footer-flex_item:nth-child(5)
+    {
+        align-items:center;
+        margin: 0 auto;
+        
+    }
+}
+
+@media (max-width:475px) {
+    .container {
+        max-width: auto;
+        padding: 0 20px;
+        
+    }    
+    .footer-flex {
+        flex-wrap: wrap;
+        
+        
+    }
+    .footer-flex_item:nth-child(-n+4)
+    {
+        margin: 0;
+    }
+    .footer-flex_item:nth-child(5)
+    {
+        align-items:center;
+        margin: 0 auto;
+        
+    }
+
+    .footer-flex_item_type {
+        max-width: 300px;
+    }
+
+    .footer-flex-bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-flex-bottom_itemleft {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:391px) {
+    .container {
+        max-width: auto;
+        padding: 0 20px;
+        
+    }    
+    
+    .footer-flex-bottom_itemleft {
+        text-align: center;
+    }
+    .footer-flex-bottom_itemleft_copyright img {
+       
+        margin: 0;
+    }
+}
+
+@media (max-width:375px) {
+    .container {
+        max-width: auto;
+        padding: 0 20px;
+        
+    }    
+    .footer-flex {
+        flex-wrap: wrap;
+                
+    }
+    .footer-flex_item:nth-child(-n+4) {
+
+        width: 50%;
+        align-items:center;
+        margin-bottom: 20px;
+    }
+   
+
+    .footer-flex-bottom_itemleft {
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-flex-bottom_itemleft p {
+        margin-bottom: 20px;
+    }
+    .footer-flex-bottom_itemright img {
+        margin-bottom: 20px;
+    }
+    .footer-flex-bottom_itemright {
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-flex_item_type {
+        max-width: 250px;
+    }
+    
+}
+
+@media (max-width:320px) {
+    .container {
+        max-width: auto;
+        padding: 0 20px;
+        
+    }    
+    
+    .footer-flex_item_type {
+        max-width: 208px;
+    }
+    .footer-flex_item_title:nth-child(5) {
+        text-align: center;
+    }
+    .footer-flex_item_title {
+        font-size: 16px;
+    }
+
+    .footer-flex_item a {
+        font-size: 14px;
+    }
+}
